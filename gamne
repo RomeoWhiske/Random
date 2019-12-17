@@ -1,0 +1,42 @@
+import json
+import requests
+
+
+authkey = 'Ubi_v1 t=ew0KICAidmVyIjogIjEiLA0KICAiYWlkIjogImY2NGQ3MGE1LWU5NjItNDQ1ZS05OThjLTlmNGRmNmZiMTE1NiIsDQogICJlbnYiOiAiUHJvZCIsDQogICJzaWQiOiAiOTdjMDM4MzktMTZmMC00YzM5LTg2Y2ItMWEyMDdhMmQxZTZkIiwNCiAgInR5cCI6ICJKV0UiLA0KICAiZW5jIjogIkExMjhDQkMiLA0KICAiaXYiOiAicFBXY2ZDOG0tVkpfQzhlZkdlTkNrUSIsDQogICJpbnQiOiAiSFMyNTYiDQp9.vwTiisVh4tnPVKANnqRYu4V2usSr7S8lQh3UA8EWmZ8W4zleW7TxpC9-JPITXuM4qypDOPlrK-33s4HFgHoVU3v5UniTh5I0iWomtbml9KKppnpbVCS536gM3QDQcGEZCgsP4rEMOxNo-y6_ryKD7CvPT5ef-fVqPHHEjkZK9wNtgteSECL5WGQlcKz4a-J4G834CAtNx3sgEqamCjPYQ4mrk1I23I3E573E6mky_h9iut3yGe5x5fGotZ8Lrt-lragixdDxPxMFhaq9-v-E0UnoHvf_Iroai70HTF1yu6VXLb8CHkXjQZNLyaZOn2t7PWANAjsQPfBgMgEDD6wXKk9B8pFkhYsDk6IRRya0plxfmYbuX2xcG9SDb69zdOUb7RSuLrLm_kYDLyEwAfDJRi0XsgFrbKyG5sQH_YA_o-M8i5CFRnGwY0gtGEztt_UznnLkslug4XCKzfQLNQc9vXj6ZKQgd6TPDRCJJYVy979tee_O0H2VWx8ok8fmxMb3wo0bfL91wmPjWkxIAYHNQiEXvG9i1x-8vmYH5p02X0bUX1pGzrMYA0OCTkAHCaIh_aGuv_klzhT9IAtG_8DOv_o31gS1b2ZtPvKRWcraTSMIxp8gFemu9h6zVlbYCPmhalSCx4XauOk6advv3BOQZ59d5gWB7e5oZIMwVd7HGs1nILSR_aSBV13XiLBdsQb88aGeJy3Nd0gP79VT9Vly8HqJZf9yYkfouKVK5-XS4KKJ9olhITtxvKI2bRDPqFolRt3HkEzlCvPAmy2foCStZARFPbYtjDY3Xbyvqx-X1FXiHWpq-9sQtE2cHS1k80Q9R36G4AZwE4vZCvOtfZuUdg.Fwy9T4A-HY_8BfsKbRUI5M4-y3vKQBtltmsfqlFhfoQ'
+
+
+# TW HISTORY
+tw_history_url = 'https://pdc-public-ubiservices.ubi.com/v1/spaces/99e34ec4-be44-4a31-a0a2-64982ae01744/sandboxes/DRAFI_IP_LNCH_PDC_A/teamwar/history'
+
+head = {'Host': 'pdc-public-ubiservices.ubi.com','Ubi-AppId': 'f64d70a5-e962-445e-998c-9f4df6fb1156','Accept': '*/*','X-Device': '525473485','Authorization': authkey,'X-Version': '442','Accept-Language': 'en-us','Accept-Encoding': 'gzip, deflate','X-Unity-Version': '2018.4.3f1','User-Agent': 'southpark/711398 CFNetwork/1098.7 Darwin/19.0.0','Connection': 'close','X-Platform': '0'}
+tw_history = requests.get(url=tw_history_url,headers=head)
+
+tw_history = json.loads(tw_history.text)
+for items in tw_history['history']:
+    for weeks in str(items['week']):
+        print(weeks[50])
+        for week in weeks['50']:
+            print(week['profile_id'])
+
+
+
+
+
+
+
+
+
+
+
+# PROFILE LOOKUPS
+
+profileid = '2a70d9d8-b8ae-4dfe-8165-66a919ee29d0'
+url = 'https://public-ubiservices.ubi.com/v1/profiles?profileId='+profileid
+head = {'Host': 'public-ubiservices.ubi.com','Ubi-AppId': 'f64d70a5-e962-445e-998c-9f4df6fb1156','Accept': '*/*','X-Device': '525473485','Authorization': authkey,'X-Version': '442','Accept-Language': 'en-us','Accept-Encoding': 'gzip, deflate','X-Unity-Version': '2018.4.3f1','User-Agent': 'southpark/711398 CFNetwork/1098.7 Darwin/19.0.0','Connection': 'close','X-Platform': '0'}
+name_lookup = requests.get(url=url,headers=head)
+
+
+
+profilelist = json.loads(name_lookup.text)
+for p in profilelist['profiles']:
+    print(p['nameOnPlatform'])
