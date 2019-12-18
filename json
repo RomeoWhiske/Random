@@ -1,0 +1,993 @@
+{
+    'history': [
+        {'week': 46, 'position': 0, 'runs': 47, 'score': 4740, 'members': [
+                {'tokens': 74, 'arena': 12, 'votes': 12, 'score': 98, 'standing': {'global': 12640
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'e1f0f40a-3ce2-4613-aa59-d96670c89cb4', 'rank': 51, 'mmr': 6913.545143426853
+                },
+                {'tokens': 84, 'arena': 14, 'votes': 12, 'score': 113, 'standing': {'global': None
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '3ce5b3c6-0f4f-4e17-b2c7-7ee7bfac4d34', 'rank': 50, 'mmr': 7517.960848383282
+                },
+                {'tokens': 82, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': 7838
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '77d60c75-7153-427a-9e1f-49773c1585eb', 'rank': 51, 'mmr': 7409.990317548934
+                },
+                {'tokens': 92, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 269
+                    }, 'level': 24, 'standing2': {'global': 591
+                    }, 'profile_id': 'be5dc5d0-5361-4f74-8d79-89956a0c0d89', 'rank': 51, 'mmr': 7801.836734388502
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 0, 'standing': {'global': 9504
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '07bc6521-8fed-421d-8384-c55aeeef40d6', 'rank': 51, 'mmr': 7257.3311207461375
+                },
+                {'tokens': 52, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': 15888
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '048e60c0-c276-44fa-bcee-a79cac6ae625', 'rank': 51, 'mmr': 7264.815105998283
+                },
+                {'tokens': 80, 'arena': 12, 'votes': 11, 'score': 113, 'standing': {'global': 15266
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '7dde34c4-7223-481a-8c6a-97077d8addbe', 'rank': 51, 'mmr': 6798.748074763163
+                },
+                {'tokens': 88, 'arena': 13, 'votes': 12, 'score': 98, 'standing': {'global': 1297
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'f64f4dbe-3767-4aac-a9a4-65aa5385daf5', 'rank': 51, 'mmr': 7334.839335489199
+                },
+                {'tokens': 88, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 708
+                    }, 'level': 22, 'standing2': {'global': 958
+                    }, 'profile_id': '42f4ef9a-52e6-448f-a8d8-6db00278d5db', 'rank': 51, 'mmr': 7663.195071636677
+                },
+                {'tokens': 76, 'arena': 12, 'votes': 12, 'score': 84, 'standing': {'global': 12834
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'c9e1646f-844c-47c3-b8ce-b85ad3c812a0', 'rank': 51, 'mmr': 6575.133477924725
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 575
+                    }, 'level': 24, 'standing2': {'global': None
+                    }, 'profile_id': '11e4bad9-bb0f-46c2-911e-eb89e6742e0a', 'rank': 51, 'mmr': 7597.9988791060905
+                },
+                {'tokens': 88, 'arena': 14, 'votes': 12, 'score': 100, 'standing': {'global': 5094
+                    }, 'level': 23, 'standing2': {'global': 500
+                    }, 'profile_id': 'c7a03545-bb90-41ef-bfcf-93ea2934a13f', 'rank': 51, 'mmr': 7850.5910398491915
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 84, 'standing': {'global': 10192
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'be243549-a6db-43e7-9934-69986c24d096', 'rank': 51, 'mmr': 7025.420765456456
+                },
+                {'tokens': 72, 'arena': 10, 'votes': 12, 'score': 112, 'standing': {'global': 8048
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'bf994475-3beb-4ad5-859b-7aa47701926e', 'rank': 51,
+'mmr': 5974.057788472125
+                },
+                {'tokens': 78, 'arena': 13, 'votes': 12, 'score': 113, 'standing': {'global': 6798
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': 'fe80148b-213e-402f-830c-317bfc455acd', 'rank': 51, 'mmr': 7366.086562059685
+                },
+                {'tokens': 84, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 1394
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '93661144-fcc9-4b77-8527-7761c99f472c', 'rank': 51, 'mmr': 7528.4681680415
+                },
+                {'tokens': 90, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': 231
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'f99243a8-b8fb-4c4a-8f98-9e0b6ade1bb4', 'rank': 51, 'mmr': 7220.640956909378
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 11, 'score': 111, 'standing': {'global': 6797
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '105ad1ad-b733-4d41-8f0f-48b4a8f6e874', 'rank': 51, 'mmr': 7065.835532328895
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': None
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': '2a70d9d8-b8ae-4dfe-8165-66a919ee29d0', 'rank': 49, 'mmr': 7325.454440368056
+                },
+                {'tokens': 88, 'arena': 14, 'votes': 12, 'score': 112, 'standing': {'global': None
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '033e88a7-d2a5-48be-8bb6-a94e35f4a5bd', 'rank': 48, 'mmr': 7511.792879154908
+                },
+                {'tokens': 84, 'arena': 12, 'votes': 12, 'score': 114, 'standing': {'global': 10473
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'f14e0f03-723a-41f8-9c9f-481ff2fec91c', 'rank': 51, 'mmr': 6858.961144461254
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 12, 'score': 113, 'standing': {'global': 3011
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id':
+'2864c7fb-8525-4472-b270-a1442c6439ec', 'rank': 51, 'mmr': 6805.8073376158645
+                },
+                {'tokens': 80, 'arena': 14, 'votes': 12, 'score': 99, 'standing': {'global': 2058
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'a27007b2-4b08-40ff-8861-7470a9a9579c', 'rank': 51, 'mmr': 7646.981964855014
+                },
+                {'tokens': 78, 'arena': 13, 'votes': 12, 'score': 23, 'standing': {'global': 2615
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '0de19c36-e303-4143-a48b-67854be85949', 'rank': 51, 'mmr': 7048.573602637202
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 99, 'standing': {'global': None
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': '81c38192-ab5e-4e73-99fd-49c1545b95e3', 'rank': 50, 'mmr': 7271.997999158409
+                },
+                {'tokens': 88, 'arena': 13, 'votes': 12, 'score': 112, 'standing': {'global': 867
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '2ce0fd96-c377-438f-ab29-0b5d1779537d', 'rank': 51, 'mmr': 7421.231879353426
+                },
+                {'tokens': 82, 'arena': 13, 'votes': 12, 'score': 112, 'standing': {'global': 1722
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': '0e50869f-66f4-4bb2-9427-66cd57a2002c', 'rank': 51, 'mmr': 7135.289681196444
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 97, 'standing': {'global': 11913
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': 'f4249a23-7086-4271-9d1a-d0f0be66c629', 'rank': 51, 'mmr': 7115.844836193457
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 80, 'standing': {'global': 8008
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '2d36f086-d92f-422b-811f-493fb9f01e01', 'rank': 51, 'mmr': 7455.416263986264
+                },
+                {'tokens': 88, 'arena': 14, 'votes': 12, 'score': 111, 'standing': {'global': 938
+                    }, 'level': 23, 'standing2': {'global': 841
+                    }, 'profile_id': '161e5682-65b5-43f9-855d-d89f516ab63f', 'rank': 51, 'mmr': 7699.948572662892
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 12, 'score': 110, 'standing': {'global': 4117
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '311f7c73-bea1-40ee-bdde-af2e81af654a', 'rank': 51, 'mmr': 6997.046377960167
+                },
+                {'tokens': 84, 'arena': 14, 'votes': 12, 'score': 113, 'standing': {'global': None
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'bc82f200-90f9-4de3-868e-8217fc3c1721', 'rank': 49, 'mmr': 7597.85502846936
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 9671
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '9d963941-cf8b-4ab8-82a8-beac831b49e9', 'rank': 51, 'mmr': 7530.313384510729
+                },
+                {'tokens': 88, 'arena': 13, 'votes': 12, 'score': 100, 'standing': {'global': 1120
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '103fa629-dfac-4899-b7c3-71a867308dd3', 'rank': 51, 'mmr': 7477.168464290204
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 12, 'score': 101, 'standing': {'global': 1236
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'a7dc8226-1dee-4332-97ec-29697f838ef0', 'rank': 51, 'mmr': 6635.826127021042
+                },
+                {'tokens': 78, 'arena': 13, 'votes': 12, 'score': 112, 'standing': {'global': 2291
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': 'c6e3eb62-5cb6-43eb-8fef-37a40febe145', 'rank': 51, 'mmr': 7051.463757168954
+                },
+                {'tokens': 86, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': 5040
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': 'b257c7e3-942f-4b90-a33e-7864272c442a', 'rank': 51, 'mmr': 7244.079515501282
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 97, 'standing': {'global': 1818
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'adfe5574-054c-40cb-8799-339036e2e8f0', 'rank': 51, 'mmr': 7175.346015139745
+                },
+                {'tokens': 86, 'arena': 13, 'votes': 12, 'score': 113, 'standing': {'global': 4090
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '2ced74da-f700-4f4b-9c97-c48fd49701ea', 'rank': 51, 'mmr': 7213.491414530423
+                },
+                {'tokens': 88, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 5752
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'b86227ce-9006-47f4-a5e2-0d252244a175', 'rank': 51, 'mmr': 7522.797889988939
+                },
+                {'tokens': 86, 'arena': 12, 'votes': 12, 'score': 114, 'standing': {'global': 7444
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '499194c7-c353-4200-ac98-2daab1dae5f9', 'rank': 51, 'mmr': 6762.2291177523275
+                },
+                {'tokens': 90,
+'arena': 14, 'votes': 12, 'score': 113, 'standing': {'global': 458
+                    }, 'level': 22, 'standing2': {'global': 623
+                    }, 'profile_id': 'a46a2ddc-9898-478e-b5e7-01d212b3164c', 'rank': 51, 'mmr': 7785.503340387457
+                },
+                {'tokens': 76, 'arena': 11, 'votes': 12, 'score': 98, 'standing': {'global': 2379
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '4be0182d-b477-49a5-a615-a32085f82c9c', 'rank': 51, 'mmr': 6277.073231627549
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 12, 'score': 23, 'standing': {'global': 10742
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'da0a2c87-f0f6-4d3b-afb4-fb18c2256ce3', 'rank': 51, 'mmr': 6996.239893416659
+                },
+                {'tokens': 94, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 1009
+                    }, 'level': 24, 'standing2': {'global': 977
+                    }, 'profile_id': '5ad9ca7a-2862-45cd-8d50-34da1a339845', 'rank': 51, 'mmr': 7658.652463804061
+                },
+                {'tokens': 78, 'arena': 11, 'votes': 12, 'score': 82, 'standing': {'global': 8192
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '47fdebeb-c77f-4e70-b579-84a13407514a', 'rank': 51, 'mmr': 6370.130416812108
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 98, 'standing': {'global': 2420
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '3b98b542-e428-4805-8dea-8f47b89962f1', 'rank': 51, 'mmr': 7422.063032966863
+                }
+            ]
+        },
+        {'week': 47, 'position': 1, 'runs': 49, 'score': 4551, 'members': [
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 97, 'standing': {'global': 7838
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '77d60c75-7153-427a-9e1f-49773c1585eb', 'rank': 51, 'mmr': 7409.990317548934
+                },
+                {'tokens': 74, 'arena': 12, 'votes': 12, 'score': 23, 'standing': {'global': 12640
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'e1f0f40a-3ce2-4613-aa59-d96670c89cb4', 'rank': 51, 'mmr': 6913.545143426853
+                },
+                {'tokens': 86, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': None
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '3ce5b3c6-0f4f-4e17-b2c7-7ee7bfac4d34', 'rank': 50, 'mmr': 7517.960848383282
+                },
+                {'tokens': 88, 'arena': 14, 'votes': 12, 'score': 112, 'standing': {'global': 5752
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'b86227ce-9006-47f4-a5e2-0d252244a175', 'rank': 51, 'mmr': 7522.797889988939
+                },
+                {'tokens': 96, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 269
+                    }, 'level': 24, 'standing2': {'global': 591
+                    }, 'profile_id': 'be5dc5d0-5361-4f74-8d79-89956a0c0d89', 'rank': 51, 'mmr': 7801.836734388502
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 113, 'standing': {'global': 9504
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '07bc6521-8fed-421d-8384-c55aeeef40d6', 'rank': 51, 'mmr': 7257.3311207461375
+                },
+                {'tokens': 56, 'arena': 13, 'votes': 12, 'score': 108, 'standing': {'global': 15888
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '048e60c0-c276-44fa-bcee-a79cac6ae625', 'rank': 51, 'mmr': 7264.815105998283
+                },
+                {'tokens': 84, 'arena': 12, 'votes': 12, 'score': 96, 'standing': {'global': 15266
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '7dde34c4-7223-481a-8c6a-97077d8addbe', 'rank': 51, 'mmr': 6798.748074763163
+                },
+                {'tokens': 90, 'arena': 13, 'votes': 12, 'score': 1, 'standing': {'global': 1297
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'f64f4dbe-3767-4aac-a9a4-65aa5385daf5', 'rank': 51, 'mmr': 7334.839335489199
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 46, 'standing': {'global': 708
+                    }, 'level': 22, 'standing2': {'global': 958
+                    }, 'profile_id': '42f4ef9a-52e6-448f-a8d8-6db00278d5db', 'rank': 51, 'mmr': 7663.195071636677
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 12, 'score': 46, 'standing': {'global': 12834
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'c9e1646f-844c-47c3-b8ce-b85ad3c812a0', 'rank': 51, 'mmr': 6575.133477924725
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 97, 'standing': {'global': 575
+                    }, 'level': 24, 'standing2': {'global': None
+                    }, 'profile_id': '11e4bad9-bb0f-46c2-911e-eb89e6742e0a', 'rank': 51, 'mmr': 7597.9988791060905
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 112, 'standing': {'global': 5094
+                    }, 'level': 23, 'standing2': {'global': 500
+                    }, 'profile_id': 'c7a03545-bb90-41ef-bfcf-93ea2934a13f', 'rank': 51, 'mmr': 7850.5910398491915
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 99, 'standing': {'global': 10192
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'be243549-a6db-43e7-9934-69986c24d096', 'rank': 51, 'mmr': 7025.420765456456
+                },
+                {'tokens': 72, 'arena': 10, 'votes': 12, 'score': 99, 'standing': {'global': 8048
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'bf994475-3beb-4ad5-859b-7aa47701926e', 'rank': 51, 'mmr': 5974.057788472125
+                },
+                {'tokens': 78, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': 6798
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': 'fe80148b-213e-402f-830c-317bfc455acd', 'rank': 51, 'mmr': 7366.086562059685
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 44, 'standing': {'global': 1394
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '93661144-fcc9-4b77-8527-7761c99f472c', 'rank': 51, 'mmr': 7528.4681680415
+                },
+                {'tokens': 90, 'arena': 13, 'votes': 12, 'score': 97, 'standing': {'global': 231
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'f99243a8-b8fb-4c4a-8f98-9e0b6ade1bb4', 'rank': 51, 'mmr': 7220.640956909378
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 1, 'standing': {'global': 6797
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '105ad1ad-b733-4d41-8f0f-48b4a8f6e874', 'rank': 51, 'mmr': 7065.835532328895
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 84, 'standing': {'global': None
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': '2a70d9d8-b8ae-4dfe-8165-66a919ee29d0', 'rank': 49, 'mmr': 7325.454440368056
+                },
+                {'tokens': 86, 'arena': 14, 'votes': 12, 'score': 97, 'standing': {'global': None
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '033e88a7-d2a5-48be-8bb6-a94e35f4a5bd', 'rank': 48, 'mmr': 7511.792879154908
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 98, 'standing': {'global': 2160
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'd2297001-f85e-4c69-a977-1d056a0f5578', 'rank': 51, 'mmr': 7141.371483353224
+                },
+                {'tokens': 82, 'arena': 12, 'votes': 12, 'score': 96, 'standing': {'global': 10473
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'f14e0f03-723a-41f8-9c9f-481ff2fec91c', 'rank': 51, 'mmr': 6858.961144461254
+                },
+                {'tokens': 80, 'arena': 12, 'votes': 10, 'score': 97, 'standing': {'global': 3011
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '2864c7fb-8525-4472-b270-a1442c6439ec', 'rank': 51, 'mmr': 6805.8073376158645
+                },
+                {'tokens': 84, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 2058
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'a27007b2-4b08-40ff-8861-7470a9a9579c', 'rank': 51, 'mmr': 7646.981964855014
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 0, 'score': 99, 'standing': {'global': 2615
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '0de19c36-e303-4143-a48b-67854be85949', 'rank': 51, 'mmr': 7048.573602637202
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 11, 'score': 112, 'standing': {'global': None
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': '81c38192-ab5e-4e73-99fd-49c1545b95e3', 'rank': 50, 'mmr': 7271.997999158409
+                },
+                {'tokens': 90, 'arena': 13, 'votes': 12, 'score': 98, 'standing': {'global': 867
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '2ce0fd96-c377-438f-ab29-0b5d1779537d', 'rank': 51, 'mmr': 7421.231879353426
+                },
+                {'tokens': 86, 'arena': 13, 'votes': 12, 'score': 112, 'standing': {'global': 1722
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': '0e50869f-66f4-4bb2-9427-66cd57a2002c', 'rank': 51, 'mmr': 7135.289681196444
+                },
+                {'tokens': 80, 'arena': 12, 'votes': 0, 'score': 100, 'standing': {'global': 9826
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '23692fbc-7317-4400-8fab-ce4764cc2886', 'rank': 51, 'mmr': 6829.17169303424
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 113, 'standing': {'global': 11913
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': 'f4249a23-7086-4271-9d1a-d0f0be66c629', 'rank': 51, 'mmr': 7115.844836193457
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 0, 'standing': {'global': 8008
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '2d36f086-d92f-422b-811f-493fb9f01e01', 'rank': 51, 'mmr': 7455.416263986264
+                },
+                {'tokens': 88, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 938
+                    }, 'level': 23, 'standing2': {'global': 841
+                    }, 'profile_id': '161e5682-65b5-43f9-855d-d89f516ab63f', 'rank': 51, 'mmr': 7699.948572662892
+                },
+                {'tokens': 84, 'arena': 12, 'votes': 12, 'score': 100, 'standing': {'global': 4117
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '311f7c73-bea1-40ee-bdde-af2e81af654a', 'rank': 51, 'mmr': 6997.046377960167
+                },
+                {'tokens': 94, 'arena': 14, 'votes': 12, 'score': 112, 'standing': {'global': None
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'bc82f200-90f9-4de3-868e-8217fc3c1721', 'rank': 49, 'mmr': 7597.85502846936
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 85, 'standing': {'global': 9671
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '9d963941-cf8b-4ab8-82a8-beac831b49e9', 'rank': 51, 'mmr': 7530.313384510729
+                },
+                {'tokens': 0, 'arena': 5, 'votes': 0, 'score': None, 'standing': {'global': None
+                    }, 'level': 7, 'standing2': {'global': None
+                    }, 'profile_id': '2ad93392-d85e-4cdd-a8e0-45f5b2f36e44', 'rank': 1, 'mmr': 2070.2493623008063
+                },
+                {'tokens': 90, 'arena': 13, 'votes': 12, 'score': 98, 'standing': {'global': 1120
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '103fa629-dfac-4899-b7c3-71a867308dd3', 'rank': 51, 'mmr': 7477.168464290204
+                },
+                {'tokens': 82, 'arena': 12, 'votes': 12, 'score': 110, 'standing': {'global': 1236
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'a7dc8226-1dee-4332-97ec-29697f838ef0', 'rank': 51, 'mmr': 6635.826127021042
+                },
+                {'tokens': 82, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': 2291
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': 'c6e3eb62-5cb6-43eb-8fef-37a40febe145', 'rank': 51, 'mmr': 7051.463757168954
+                },
+                {'tokens': 90, 'arena': 13, 'votes': 12, 'score': 98, 'standing': {'global': 5040
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': 'b257c7e3-942f-4b90-a33e-7864272c442a', 'rank': 51, 'mmr': 7244.079515501282
+                },
+                {'tokens': 88, 'arena': 13, 'votes': 12, 'score': 111, 'standing': {'global': 1818
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'adfe5574-054c-40cb-8799-339036e2e8f0', 'rank': 51, 'mmr': 7175.346015139745
+                },
+                {'tokens': 88, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': 4090
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '2ced74da-f700-4f4b-9c97-c48fd49701ea', 'rank': 51, 'mmr': 7213.491414530423
+                },
+                {'tokens': 82, 'arena': 12, 'votes': 12, 'score': 113, 'standing': {'global': 7444
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '499194c7-c353-4200-ac98-2daab1dae5f9', 'rank': 51, 'mmr': 6762.2291177523275
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 98, 'standing': {'global': 458
+                    }, 'level': 22, 'standing2': {'global': 623
+                    }, 'profile_id': 'a46a2ddc-9898-478e-b5e7-01d212b3164c', 'rank': 51, 'mmr': 7785.503340387457
+                },
+                {'tokens': 78, 'arena': 11, 'votes': 12, 'score': 97, 'standing': {'global': 2379
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '4be0182d-b477-49a5-a615-a32085f82c9c', 'rank': 51, 'mmr': 6277.073231627549
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 12, 'score': 112, 'standing': {'global': 10742
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'da0a2c87-f0f6-4d3b-afb4-fb18c2256ce3', 'rank': 51, 'mmr': 6996.239893416659
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 1009
+                    }, 'level': 24, 'standing2': {'global': 977
+                    }, 'profile_id': '5ad9ca7a-2862-45cd-8d50-34da1a339845', 'rank': 51, 'mmr': 7658.652463804061
+                },
+                {'tokens': 78, 'arena': 11, 'votes': 12, 'score': 96, 'standing': {'global': 8192
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '47fdebeb-c77f-4e70-b579-84a13407514a', 'rank': 51, 'mmr': 6370.130416812108
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 112, 'standing': {'global': 2420
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '3b98b542-e428-4805-8dea-8f47b89962f1', 'rank': 51, 'mmr': 7422.063032966863
+                }
+            ]
+        },
+        {'week': 48, 'position': 3, 'runs': 48, 'score': 4717, 'members': [
+                {'tokens': 84, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': None
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '3ce5b3c6-0f4f-4e17-b2c7-7ee7bfac4d34', 'rank': 50, 'mmr': 7517.960848383282
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 99, 'standing': {'global': 5752
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'b86227ce-9006-47f4-a5e2-0d252244a175',
+'rank': 51, 'mmr': 7522.797889988939
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 83, 'standing': {'global': 2160
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'd2297001-f85e-4c69-a977-1d056a0f5578', 'rank': 51, 'mmr': 7141.371483353224
+                },
+                {'tokens': 96, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 269
+                    }, 'level': 24, 'standing2': {'global': 591
+                    }, 'profile_id': 'be5dc5d0-5361-4f74-8d79-89956a0c0d89', 'rank': 51, 'mmr': 7801.836734388502
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 44, 'standing': {'global': 9504
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '07bc6521-8fed-421d-8384-c55aeeef40d6', 'rank': 51, 'mmr': 7257.3311207461375
+                },
+                {'tokens': 56, 'arena': 13, 'votes': 0, 'score': 114, 'standing': {'global': 15888
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '048e60c0-c276-44fa-bcee-a79cac6ae625', 'rank': 51, 'mmr': 7264.815105998283
+                },
+                {'tokens': 84, 'arena': 12, 'votes': 12, 'score': None, 'standing': {'global': 15266
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '7dde34c4-7223-481a-8c6a-97077d8addbe', 'rank': 51, 'mmr': 6798.748074763163
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 708
+                    }, 'level': 22, 'standing2': {'global': 958
+                    }, 'profile_id': '42f4ef9a-52e6-448f-a8d8-6db00278d5db', 'rank': 51, 'mmr': 7663.195071636677
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 12, 'score': 97, 'standing': {'global': 12834
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'c9e1646f-844c-47c3-b8ce-b85ad3c812a0', 'rank': 51, 'mmr': 6575.133477924725
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 98, 'standing': {'global': 575
+                    }, 'level': 24, 'standing2': {'global': None
+                    }, 'profile_id': '11e4bad9-bb0f-46c2-911e-eb89e6742e0a', 'rank': 51, 'mmr': 7597.9988791060905
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 99, 'standing': {'global': 5094
+                    }, 'level': 23, 'standing2': {'global': 500
+                    }, 'profile_id': 'c7a03545-bb90-41ef-bfcf-93ea2934a13f', 'rank': 51, 'mmr': 7850.5910398491915
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 0, 'standing': {'global': 6798
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': 'fe80148b-213e-402f-830c-317bfc455acd', 'rank': 51, 'mmr': 7366.086562059685
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 97, 'standing': {'global': 10192
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'be243549-a6db-43e7-9934-69986c24d096', 'rank': 51, 'mmr': 7025.420765456456
+                },
+                {'tokens': 72, 'arena': 10, 'votes': 12, 'score': 97, 'standing': {'global': 8048
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'bf994475-3beb-4ad5-859b-7aa47701926e', 'rank': 51, 'mmr': 5974.057788472125
+                },
+                {'tokens': 90, 'arena': 13, 'votes': 12, 'score': 110, 'standing': {'global': 867
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '2ce0fd96-c377-438f-ab29-0b5d1779537d', 'rank': 51, 'mmr': 7421.231879353426
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 99, 'standing': {'global': 1394
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '93661144-fcc9-4b77-8527-7761c99f472c', 'rank': 51, 'mmr': 7528.4681680415
+                },
+                {'tokens': 96, 'arena': 13, 'votes': 12, 'score': 85, 'standing': {'global': 231
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'f99243a8-b8fb-4c4a-8f98-9e0b6ade1bb4', 'rank': 51, 'mmr': 7220.640956909378
+                },
+                {'tokens': 86, 'arena': 13, 'votes': 12, 'score': 112, 'standing': {'global': 6797
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '105ad1ad-b733-4d41-8f0f-48b4a8f6e874', 'rank': 51, 'mmr': 7065.835532328895
+                },
+                {'tokens': 86, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': None
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': '2a70d9d8-b8ae-4dfe-8165-66a919ee29d0', 'rank': 49, 'mmr': 7325.454440368056
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 112, 'standing': {'global': None
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '033e88a7-d2a5-48be-8bb6-a94e35f4a5bd', 'rank': 48, 'mmr': 7511.792879154908
+                },
+                {'tokens': 86, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': 11913
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': 'f4249a23-7086-4271-9d1a-d0f0be66c629', 'rank': 51, 'mmr': 7115.844836193457
+                },
+                {'tokens': 84, 'arena': 12, 'votes': 12, 'score': 114, 'standing': {'global': 10473
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'f14e0f03-723a-41f8-9c9f-481ff2fec91c', 'rank': 51, 'mmr': 6858.961144461254
+                },
+                {'tokens': 84, 'arena': 12, 'votes': 12, 'score': 114, 'standing': {'global': 3011
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '2864c7fb-8525-4472-b270-a1442c6439ec', 'rank': 51, 'mmr': 6805.8073376158645
+                },
+                {'tokens': 84, 'arena': 14, 'votes': 12, 'score': 84, 'standing': {'global': 2058
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'a27007b2-4b08-40ff-8861-7470a9a9579c', 'rank': 51, 'mmr': 7646.981964855014
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': None
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': '81c38192-ab5e-4e73-99fd-49c1545b95e3', 'rank': 50, 'mmr': 7271.997999158409
+                },
+                {'tokens': 82, 'arena': 13, 'votes': 0, 'score': 0, 'standing': {'global': 2615
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '0de19c36-e303-4143-a48b-67854be85949', 'rank': 51, 'mmr': 7048.573602637202
+                },
+                {'tokens': 86, 'arena': 13, 'votes': 12, 'score': 113, 'standing': {'global': 1722
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': '0e50869f-66f4-4bb2-9427-66cd57a2002c', 'rank': 51, 'mmr': 7135.289681196444
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': 7838
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '77d60c75-7153-427a-9e1f-49773c1585eb', 'rank': 51, 'mmr': 7409.990317548934
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 0, 'score': 99, 'standing': {'global': 13324
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '04caaccb-e02f-4030-bb53-97ed326b56d9', 'rank': 51, 'mmr': 6688.062589046081
+                },
+                {'tokens': 0, 'arena': 15, 'votes': 12, 'score': None, 'standing': {'global': None
+                    }, 'level': 23, 'standing2': {'global': 140
+                    }, 'profile_id': 'e870f7ca-e840-4d8f-bba3-2f8f4d69144b', 'rank': 1, 'mmr': 8178.054460839573
+                },
+                {'tokens': 82, 'arena': 12, 'votes': 12, 'score': 98, 'standing': {'global': 9826
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '23692fbc-7317-4400-8fab-ce4764cc2886', 'rank': 51, 'mmr': 6829.17169303424
+                },
+                {'tokens': 84, 'arena': 12, 'votes': 12, 'score': 113, 'standing': {'global': 4646
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': '78f60ee1-f951-42fa-8ff7-2e91fd13d485', 'rank': 51, 'mmr': 6942.6488143618935
+                },
+                {'tokens': 90, 'arena': 13, 'votes': 12, 'score': 112, 'standing': {'global': 1297
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'f64f4dbe-3767-4aac-a9a4-65aa5385daf5', 'rank': 51, 'mmr': 7334.839335489199
+                },
+                {'tokens': 88, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 938
+                    }, 'level': 23, 'standing2': {'global': 841
+                    }, 'profile_id': '161e5682-65b5-43f9-855d-d89f516ab63f', 'rank': 51, 'mmr': 7699.948572662892
+                },
+                {'tokens': 80, 'arena': 12, 'votes': 12, 'score': 99, 'standing': {'global': 4117
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '311f7c73-bea1-40ee-bdde-af2e81af654a', 'rank': 51, 'mmr': 6997.046377960167
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': None
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'bc82f200-90f9-4de3-868e-8217fc3c1721', 'rank': 49, 'mmr': 7597.85502846936
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 9671
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '9d963941-cf8b-4ab8-82a8-beac831b49e9', 'rank': 51, 'mmr': 7530.313384510729
+                },
+                {'tokens': 88, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': 1120
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '103fa629-dfac-4899-b7c3-71a867308dd3', 'rank': 51, 'mmr': 7477.168464290204
+                },
+                {'tokens': 80, 'arena': 12,
+'votes': 12, 'score': 114, 'standing': {'global': 1236
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'a7dc8226-1dee-4332-97ec-29697f838ef0', 'rank': 51, 'mmr': 6635.826127021042
+                },
+                {'tokens': 86, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': 2291
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': 'c6e3eb62-5cb6-43eb-8fef-37a40febe145', 'rank': 51, 'mmr': 7051.463757168954
+                },
+                {'tokens': 88, 'arena': 13, 'votes': 12, 'score': 99, 'standing': {'global': 5040
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': 'b257c7e3-942f-4b90-a33e-7864272c442a', 'rank': 51, 'mmr': 7244.079515501282
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 23, 'standing': {'global': 1818
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'adfe5574-054c-40cb-8799-339036e2e8f0', 'rank': 51, 'mmr': 7175.346015139745
+                },
+                {'tokens': 90, 'arena': 13, 'votes': 12, 'score': 100, 'standing': {'global': 4090
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '2ced74da-f700-4f4b-9c97-c48fd49701ea', 'rank': 51, 'mmr': 7213.491414530423
+                },
+                {'tokens': 88, 'arena': 12, 'votes': 12, 'score': 113, 'standing': {'global': 7444
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '499194c7-c353-4200-ac98-2daab1dae5f9', 'rank': 51, 'mmr': 6762.2291177523275
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 458
+                    }, 'level': 22, 'standing2': {'global': 623
+                    }, 'profile_id': 'a46a2ddc-9898-478e-b5e7-01d212b3164c', 'rank': 51, 'mmr': 7785.503340387457
+                },
+                {'tokens': 84, 'arena': 11, 'votes': 12, 'score': 99, 'standing': {'global': 2379
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '4be0182d-b477-49a5-a615-a32085f82c9c', 'rank': 51, 'mmr': 6277.073231627549
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 12, 'score': 113, 'standing': {'global': 10742
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'da0a2c87-f0f6-4d3b-afb4-fb18c2256ce3', 'rank': 51, 'mmr': 6996.239893416659
+                },
+                {'tokens': 92, 'arena': 14, 'votes': 12, 'score': 99, 'standing': {'global': 1009
+                    }, 'level': 24, 'standing2': {'global': 977
+                    }, 'profile_id': '5ad9ca7a-2862-45cd-8d50-34da1a339845', 'rank': 51, 'mmr': 7658.652463804061
+                },
+                {'tokens': 78, 'arena': 11, 'votes': 12, 'score': 84, 'standing': {'global': 8192
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '47fdebeb-c77f-4e70-b579-84a13407514a', 'rank': 51, 'mmr': 6370.130416812108
+                },
+                {'tokens': 86, 'arena': 13, 'votes': 12, 'score': 99, 'standing': {'global': 2420
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '3b98b542-e428-4805-8dea-8f47b89962f1', 'rank': 51, 'mmr': 7422.063032966863
+                }
+            ]
+        },
+        {'week': 49, 'position': 2, 'runs': 46, 'score': 4413, 'members': [
+                {'tokens': 78, 'arena': 13, 'votes': 12, 'score': 113, 'standing': {'global': 7838
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '77d60c75-7153-427a-9e1f-49773c1585eb', 'rank': 51, 'mmr': 7409.990317548934
+                },
+                {'tokens': 78, 'arena': 14, 'votes': 12, 'score': 47, 'standing': {'global': None
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '3ce5b3c6-0f4f-4e17-b2c7-7ee7bfac4d34', 'rank': 50, 'mmr': 7517.960848383282
+                },
+                {'tokens': 84, 'arena': 14, 'votes': 12, 'score': 86, 'standing': {'global': 5752
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'b86227ce-9006-47f4-a5e2-0d252244a175', 'rank': 51, 'mmr': 7522.797889988939
+                },
+                {'tokens': 84, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 269
+                    }, 'level': 24, 'standing2': {'global': 591
+                    }, 'profile_id': 'be5dc5d0-5361-4f74-8d79-89956a0c0d89', 'rank': 51, 'mmr': 7801.836734388502
+                },
+                {'tokens': 72, 'arena': 13, 'votes': 12, 'score': 98, 'standing': {'global': 9504
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '07bc6521-8fed-421d-8384-c55aeeef40d6', 'rank': 51, 'mmr': 7257.3311207461375
+                },
+                {'tokens': 78, 'arena': 13, 'votes': 12, 'score': 112, 'standing': {'global': 15888
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '048e60c0-c276-44fa-bcee-a79cac6ae625', 'rank': 51, 'mmr': 7264.815105998283
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 0, 'score': 112, 'standing': {'global': 15266
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '7dde34c4-7223-481a-8c6a-97077d8addbe', 'rank': 51, 'mmr': 6798.748074763163
+                },
+                {'tokens': 82, 'arena': 14, 'votes': 12, 'score': 81, 'standing': {'global': 708
+                    }, 'level': 22, 'standing2': {'global': 958
+                    }, 'profile_id': '42f4ef9a-52e6-448f-a8d8-6db00278d5db', 'rank': 51, 'mmr': 7663.195071636677
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 12, 'score': 85, 'standing': {'global': 12834
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'c9e1646f-844c-47c3-b8ce-b85ad3c812a0', 'rank': 51, 'mmr': 6575.133477924725
+                },
+                {'tokens': 84, 'arena': 14, 'votes': 12, 'score': 24, 'standing': {'global': 5094
+                    }, 'level': 23, 'standing2': {'global': 500
+                    }, 'profile_id': 'c7a03545-bb90-41ef-bfcf-93ea2934a13f', 'rank': 51, 'mmr': 7850.5910398491915
+                },
+                {'tokens': 78, 'arena': 13, 'votes': 12, 'score': 1, 'standing': {'global': 6799
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': 'fe80148b-213e-402f-830c-317bfc455acd', 'rank': 51, 'mmr': 7366.086562059685
+                },
+                {'tokens': 78, 'arena': 13, 'votes': 12, 'score': 111, 'standing': {'global': 10192
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'be243549-a6db-43e7-9934-69986c24d096', 'rank': 51, 'mmr': 7025.420765456456
+                },
+                {'tokens': 72, 'arena': 10, 'votes': 12, 'score': 111, 'standing': {'global': 8048
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'bf994475-3beb-4ad5-859b-7aa47701926e', 'rank': 51, 'mmr': 5974.057788472125
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 113, 'standing': {'global': 867
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '2ce0fd96-c377-438f-ab29-0b5d1779537d', 'rank': 51, 'mmr': 7421.231879353426
+                },
+                {'tokens': 0, 'arena': 12, 'votes': 0, 'score': None, 'standing': {'global': 9512
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': '1462c6b2-8f47-46d9-aaad-c6b9ef28a711', 'rank': 51, 'mmr': 6872.56728362365
+                },
+                {'tokens': 84, 'arena': 14, 'votes': 12, 'score': 111, 'standing': {'global': 1394
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '93661144-fcc9-4b77-8527-7761c99f472c', 'rank': 51, 'mmr': 7528.4681680415
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 113, 'standing': {'global': 231
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'f99243a8-b8fb-4c4a-8f98-9e0b6ade1bb4', 'rank': 51, 'mmr': 7220.640956909378
+                },
+                {'tokens': 78, 'arena': 13, 'votes': 12, 'score': 101, 'standing': {'global': 6797
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id':
+'105ad1ad-b733-4d41-8f0f-48b4a8f6e874', 'rank': 51, 'mmr': 7065.835532328895
+                },
+                {'tokens': 78, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': None
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': '2a70d9d8-b8ae-4dfe-8165-66a919ee29d0', 'rank': 49, 'mmr': 7325.454440368056
+                },
+                {'tokens': 72, 'arena': 11, 'votes': 12, 'score': 98, 'standing': {'global': 9919
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '23a3f6a7-189c-4887-9bd1-20e06ab4e71a', 'rank': 51, 'mmr': 6289.81512870214
+                },
+                {'tokens': 80, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': None
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '033e88a7-d2a5-48be-8bb6-a94e35f4a5bd', 'rank': 48, 'mmr': 7511.792879154908
+                },
+                {'tokens': 78, 'arena': 13, 'votes': 12, 'score': 99, 'standing': {'global': 11913
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': 'f4249a23-7086-4271-9d1a-d0f0be66c629', 'rank': 51, 'mmr': 7115.844836193457
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 0, 'score': 114, 'standing': {'global': 10473
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'f14e0f03-723a-41f8-9c9f-481ff2fec91c',
+'rank': 51, 'mmr': 6858.961144461254
+                },
+                {'tokens': 79, 'arena': 12, 'votes': 11, 'score': 113, 'standing': {'global': 3011
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '2864c7fb-8525-4472-b270-a1442c6439ec', 'rank': 51, 'mmr': 6805.8073376158645
+                },
+                {'tokens': 78, 'arena': 14, 'votes': 12, 'score': 98, 'standing': {'global': 2058
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'a27007b2-4b08-40ff-8861-7470a9a9579c', 'rank': 51, 'mmr': 7646.981964855014
+                },
+                {'tokens': 80, 'arena': 13, 'votes': 0, 'score': 99, 'standing': {'global': None
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': '81c38192-ab5e-4e73-99fd-49c1545b95e3', 'rank': 50, 'mmr': 7271.997999158409
+                },
+                {'tokens': 78, 'arena': 13, 'votes': 12, 'score': 113, 'standing': {'global': 1722
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': '0e50869f-66f4-4bb2-9427-66cd57a2002c', 'rank': 51, 'mmr': 7135.289681196444
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 10, 'score': 81, 'standing': {'global': 4646
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': '78f60ee1-f951-42fa-8ff7-2e91fd13d485', 'rank': 51, 'mmr': 6942.6488143618935
+                },
+                {'tokens': 72, 'arena': 12, 'votes': 0, 'score': 114, 'standing': {'global': 13324
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '04caaccb-e02f-4030-bb53-97ed326b56d9', 'rank': 51, 'mmr': 6688.062589046081
+                },
+                {'tokens': 74, 'arena': 12, 'votes': 12, 'score': 26, 'standing': {'global': 9826
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '23692fbc-7317-4400-8fab-ce4764cc2886', 'rank': 51, 'mmr': 6829.17169303424
+                },
+                {'tokens': 82, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': 1297
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'f64f4dbe-3767-4aac-a9a4-65aa5385daf5', 'rank': 51, 'mmr': 7334.839335489199
+                },
+                {'tokens': 84, 'arena': 14, 'votes': 12, 'score': 99, 'standing': {'global': 938
+                    }, 'level': 23, 'standing2': {'global': 841
+                    }, 'profile_id': '161e5682-65b5-43f9-855d-d89f516ab63f', 'rank': 51, 'mmr': 7699.948572662892
+                },
+                {'tokens': 76, 'arena': 12, 'votes': 12, 'score': 114, 'standing': {'global': 4117
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '311f7c73-bea1-40ee-bdde-af2e81af654a', 'rank': 51, 'mmr': 6997.046377960167
+                },
+                {'tokens': 84, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': None
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'bc82f200-90f9-4de3-868e-8217fc3c1721', 'rank': 49, 'mmr': 7597.85502846936
+                },
+                {'tokens': 82, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 9671
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '9d963941-cf8b-4ab8-82a8-beac831b49e9', 'rank': 51, 'mmr': 7530.313384510729
+                },
+                {'tokens': 76, 'arena': 12, 'votes': 12, 'score': 114, 'standing': {'global': 1236
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'a7dc8226-1dee-4332-97ec-29697f838ef0', 'rank': 51, 'mmr': 6635.826127021042
+                },
+                {'tokens': 78, 'arena': 13, 'votes': 12, 'score': 96, 'standing': {'global': 2291
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': 'c6e3eb62-5cb6-43eb-8fef-37a40febe145', 'rank': 51, 'mmr': 7051.463757168954
+                },
+                {'tokens': 82, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': 5040
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': 'b257c7e3-942f-4b90-a33e-7864272c442a', 'rank': 51, 'mmr': 7244.079515501282
+                },
+                {'tokens': 78, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': 1818
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'adfe5574-054c-40cb-8799-339036e2e8f0', 'rank': 51, 'mmr': 7175.346015139745
+                },
+                {'tokens': 82, 'arena': 13, 'votes': 12, 'score': 99, 'standing': {'global': 4090
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '2ced74da-f700-4f4b-9c97-c48fd49701ea', 'rank': 51, 'mmr': 7213.491414530423
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 12, 'score': 99, 'standing': {'global': 7444
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '499194c7-c353-4200-ac98-2daab1dae5f9', 'rank': 51, 'mmr': 6762.2291177523275
+                },
+                {'tokens': 84, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 458
+                    }, 'level': 22, 'standing2': {'global': 623
+                    }, 'profile_id': 'a46a2ddc-9898-478e-b5e7-01d212b3164c', 'rank': 51, 'mmr': 7785.503340387457
+                },
+                {'tokens': 78, 'arena': 11, 'votes': 12, 'score': 111, 'standing': {'global': 2380
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '4be0182d-b477-49a5-a615-a32085f82c9c', 'rank': 51, 'mmr': 6277.073231627549
+                },
+                {'tokens': 74, 'arena': 12, 'votes': 12, 'score': 46, 'standing': {'global': 10742
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'da0a2c87-f0f6-4d3b-afb4-fb18c2256ce3', 'rank': 51, 'mmr': 6996.239893416659
+                },
+                {'tokens': 84, 'arena': 14, 'votes': 12, 'score': 113, 'standing': {'global': 1009
+                    }, 'level': 24, 'standing2': {'global': 977
+                    }, 'profile_id': '5ad9ca7a-2862-45cd-8d50-34da1a339845', 'rank': 51, 'mmr': 7658.652463804061
+                },
+                {'tokens': 72, 'arena': 11, 'votes': 12, 'score': 23, 'standing': {'global': 8192
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '47fdebeb-c77f-4e70-b579-84a13407514a', 'rank': 51, 'mmr': 6370.130416812108
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 99, 'standing': {'global': 2420
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '3b98b542-e428-4805-8dea-8f47b89962f1', 'rank': 51, 'mmr': 7422.063032966863
+                }
+            ]
+        },
+        {'week': 50, 'position': 1, 'runs': 47, 'score': 4230, 'members': [
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 84, 'standing': {'global': 7838
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '77d60c75-7153-427a-9e1f-49773c1585eb', 'rank': 51, 'mmr': 7409.990317548934
+                },
+                {'tokens': 86, 'arena': 14, 'votes': 12, 'score': 113, 'standing': {'global': None
+                    }, 'level': 23,
+'standing2': {'global': None
+                    }, 'profile_id': '3ce5b3c6-0f4f-4e17-b2c7-7ee7bfac4d34', 'rank': 50, 'mmr': 7517.960848383282
+                },
+                {'tokens': 84, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 5752
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'b86227ce-9006-47f4-a5e2-0d252244a175', 'rank': 51, 'mmr': 7522.797889988939
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 48, 'standing': {'global': 269
+                    }, 'level': 24, 'standing2': {'global': 591
+                    }, 'profile_id': 'be5dc5d0-5361-4f74-8d79-89956a0c0d89', 'rank': 51, 'mmr': 7801.836734388502
+                },
+                {'tokens': 78, 'arena': 13, 'votes': 12, 'score': 112, 'standing': {'global': 9504
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '07bc6521-8fed-421d-8384-c55aeeef40d6', 'rank': 51, 'mmr': 7257.3311207461375
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 86, 'standing': {'global': 15888
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '048e60c0-c276-44fa-bcee-a79cac6ae625', 'rank': 51, 'mmr': 7264.815105998283
+                },
+                {'tokens': 84, 'arena': 12, 'votes': 11, 'score': 99, 'standing': {'global': 15266
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '7dde34c4-7223-481a-8c6a-97077d8addbe', 'rank': 51, 'mmr': 6798.748074763163
+                },
+                {'tokens': 86, 'arena': 14, 'votes': 12, 'score': 47, 'standing': {'global': 708
+                    }, 'level': 22, 'standing2': {'global': 958
+                    }, 'profile_id': '42f4ef9a-52e6-448f-a8d8-6db00278d5db', 'rank': 51, 'mmr': 7663.195071636677
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 12, 'score': 99, 'standing': {'global': 12834
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'c9e1646f-844c-47c3-b8ce-b85ad3c812a0', 'rank': 51, 'mmr': 6575.133477924725
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 46, 'standing': {'global': 575
+                    }, 'level': 24, 'standing2': {'global': None
+                    }, 'profile_id': '11e4bad9-bb0f-46c2-911e-eb89e6742e0a', 'rank': 51, 'mmr': 7597.9988791060905
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 99, 'standing': {'global': 5094
+                    }, 'level': 23, 'standing2': {'global': 500
+                    }, 'profile_id': 'c7a03545-bb90-41ef-bfcf-93ea2934a13f', 'rank': 51, 'mmr': 7850.5910398491915
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 12, 'score': 99, 'standing': {'global': 10742
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'da0a2c87-f0f6-4d3b-afb4-fb18c2256ce3', 'rank': 51, 'mmr': 6996.239893416659
+                },
+                {'tokens': 80, 'arena': 13, 'votes': 12, 'score': 50, 'standing': {'global': 10192
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'be243549-a6db-43e7-9934-69986c24d096', 'rank': 51, 'mmr': 7025.420765456456
+                },
+                {'tokens': 68, 'arena': 10, 'votes': 0, 'score': 99, 'standing': {'global': 8048
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'bf994475-3beb-4ad5-859b-7aa47701926e', 'rank': 51, 'mmr': 5974.057788472125
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': 867
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '2ce0fd96-c377-438f-ab29-0b5d1779537d', 'rank': 51, 'mmr': 7421.231879353426
+                },
+                {'tokens': 26, 'arena': 12, 'votes': 0, 'score': 97, 'standing': {'global': 9512
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': '1462c6b2-8f47-46d9-aaad-c6b9ef28a711', 'rank': 51, 'mmr': 6872.56728362365
+                },
+                {'tokens': 84, 'arena': 14, 'votes': 12, 'score': 85, 'standing': {'global': 1394
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '93661144-fcc9-4b77-8527-7761c99f472c', 'rank': 51, 'mmr': 7528.4681680415
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': 231
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'f99243a8-b8fb-4c4a-8f98-9e0b6ade1bb4', 'rank': 51, 'mmr': 7220.640956909378
+                },
+                {'tokens': 56, 'arena': 13, 'votes': 12, 'score': 45, 'standing': {'global': 6797
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '105ad1ad-b733-4d41-8f0f-48b4a8f6e874', 'rank': 51, 'mmr': 7065.835532328895
+                },
+                {'tokens': 82, 'arena': 13, 'votes': 12, 'score': 100, 'standing': {'global': None
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': '2a70d9d8-b8ae-4dfe-8165-66a919ee29d0', 'rank': 49, 'mmr': 7325.454440368056
+                },
+                {'tokens': 84, 'arena': 14, 'votes': 12, 'score': 45, 'standing': {'global': None
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '033e88a7-d2a5-48be-8bb6-a94e35f4a5bd', 'rank': 48, 'mmr': 7511.792879154908
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 112, 'standing': {'global': 2160
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'd2297001-f85e-4c69-a977-1d056a0f5578', 'rank': 51, 'mmr': 7141.371483353224
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 12, 'score': 99, 'standing': {'global': 10473
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'f14e0f03-723a-41f8-9c9f-481ff2fec91c', 'rank': 51, 'mmr': 6858.961144461254
+                },
+                {'tokens': 80, 'arena': 12, 'votes': 12, 'score': 98, 'standing': {'global': 3011
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '2864c7fb-8525-4472-b270-a1442c6439ec', 'rank': 51, 'mmr': 6805.8073376158645
+                },
+                {'tokens': 84, 'arena': 14, 'votes': 12, 'score': 97, 'standing': {'global': 2058
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'a27007b2-4b08-40ff-8861-7470a9a9579c', 'rank': 51, 'mmr': 7646.981964855014
+                },
+                {'tokens': 80, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': None
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': '81c38192-ab5e-4e73-99fd-49c1545b95e3', 'rank': 50, 'mmr': 7271.997999158409
+                },
+                {'tokens': 80, 'arena': 13, 'votes': 12, 'score': 83, 'standing': {'global': 1722
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': '0e50869f-66f4-4bb2-9427-66cd57a2002c', 'rank': 51, 'mmr': 7135.289681196444
+                },
+                {'tokens': 52, 'arena': 12, 'votes': 12, 'score': 113, 'standing': {'global': 4646
+                    }, 'level': 21, 'standing2': {'global': None
+                    }, 'profile_id': '78f60ee1-f951-42fa-8ff7-2e91fd13d485', 'rank': 51, 'mmr': 6942.6488143618935
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 0, 'score': 49, 'standing': {'global': 13324
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '04caaccb-e02f-4030-bb53-97ed326b56d9', 'rank': 51, 'mmr': 6688.062589046081
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 12, 'score': 98, 'standing': {'global': 9826
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '23692fbc-7317-4400-8fab-ce4764cc2886', 'rank': 51, 'mmr': 6829.17169303424
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 96, 'standing': {'global': 1297
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'f64f4dbe-3767-4aac-a9a4-65aa5385daf5', 'rank': 51, 'mmr': 7334.839335489199
+                },
+                {'tokens': 86, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 938
+                    }, 'level': 23, 'standing2': {'global': 841
+                    }, 'profile_id': '161e5682-65b5-43f9-855d-d89f516ab63f', 'rank': 51, 'mmr': 7699.948572662892
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 12, 'score': 101, 'standing': {'global': 4117
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '311f7c73-bea1-40ee-bdde-af2e81af654a', 'rank': 51, 'mmr': 6997.046377960167
+                },
+                {'tokens': 84, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': None
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'bc82f200-90f9-4de3-868e-8217fc3c1721', 'rank': 49,
+'mmr': 7597.85502846936
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 114, 'standing': {'global': 9671
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '9d963941-cf8b-4ab8-82a8-beac831b49e9', 'rank': 51, 'mmr': 7530.313384510729
+                },
+                {'tokens': 88, 'arena': 13, 'votes': 12, 'score': 24, 'standing': {'global': 1120
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '103fa629-dfac-4899-b7c3-71a867308dd3', 'rank': 51, 'mmr': 7477.168464290204
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 12, 'score': 0, 'standing': {'global': 1236
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'a7dc8226-1dee-4332-97ec-29697f838ef0', 'rank': 51, 'mmr': 6635.826127021042
+                },
+                {'tokens': 82, 'arena': 13, 'votes': 12, 'score': 111, 'standing': {'global': 2291
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': 'c6e3eb62-5cb6-43eb-8fef-37a40febe145', 'rank': 51, 'mmr': 7051.463757168954
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 113, 'standing': {'global': 5040
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': 'b257c7e3-942f-4b90-a33e-7864272c442a', 'rank': 51, 'mmr': 7244.079515501282
+                },
+                {'tokens': 84,
+'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': 1818
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': 'adfe5574-054c-40cb-8799-339036e2e8f0', 'rank': 51, 'mmr': 7175.346015139745
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': 4090
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '2ced74da-f700-4f4b-9c97-c48fd49701ea', 'rank': 51, 'mmr': 7213.491414530423
+                },
+                {'tokens': 78, 'arena': 12, 'votes': 12, 'score': 113, 'standing': {'global': 7444
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '499194c7-c353-4200-ac98-2daab1dae5f9', 'rank': 51, 'mmr': 6762.2291177523275
+                },
+                {'tokens': 86, 'arena': 14, 'votes': 12, 'score': 97, 'standing': {'global': 458
+                    }, 'level': 22, 'standing2': {'global': 623
+                    }, 'profile_id': 'a46a2ddc-9898-478e-b5e7-01d212b3164c', 'rank': 51, 'mmr': 7785.503340387457
+                },
+                {'tokens': 78, 'arena': 11, 'votes': 12, 'score': 24, 'standing': {'global': 2379
+                    }, 'level': 23, 'standing2': {'global': None
+                    }, 'profile_id': '4be0182d-b477-49a5-a615-a32085f82c9c', 'rank': 51, 'mmr': 6277.073231627549
+                },
+                {'tokens': 72, 'arena': 11, 'votes': 12, 'score': 97, 'standing': {'global': 9919
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '23a3f6a7-189c-4887-9bd1-20e06ab4e71a', 'rank': 51, 'mmr': 6289.81512870214
+                },
+                {'tokens': 90, 'arena': 14, 'votes': 12, 'score': 112, 'standing': {'global': 1009
+                    }, 'level': 24, 'standing2': {'global': 977
+                    }, 'profile_id': '5ad9ca7a-2862-45cd-8d50-34da1a339845', 'rank': 51, 'mmr': 7658.652463804061
+                },
+                {'tokens': 84, 'arena': 13, 'votes': 12, 'score': 114, 'standing': {'global': 2420
+                    }, 'level': 22, 'standing2': {'global': None
+                    }, 'profile_id': '3b98b542-e428-4805-8dea-8f47b89962f1', 'rank': 51, 'mmr': 7422.063032966863
+                }
+            ]
+        }
+    ]
+}
