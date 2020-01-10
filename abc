@@ -1,0 +1,142 @@
+import json
+import requests
+
+authkey = 'Ubi_v1 t=ew0KICAidmVyIjogIjEiLA0KICAiYWlkIjogImY2NGQ3MGE1LWU5NjItNDQ1ZS05OThjLTlmNGRmNmZiMTE1NiIsDQogICJlbnYiOiAiUHJvZCIsDQogICJzaWQiOiAiZTdlM2EzZGMtOWZmMi00OWQ4LTlkMTktN2VhOWU1MWY3NTA1IiwNCiAgInR5cCI6ICJKV0UiLA0KICAiZW5jIjogIkExMjhDQkMiLA0KICAiaXYiOiAiOUxYaEl4VzFuR21WR2V6aEVsU0hYdyIsDQogICJpbnQiOiAiSFMyNTYiDQp9.8A0fE_WeBfxPIRtcklSroFvGYs-zV7NYS8kKVZg_509vNoL6lDTROgATkNczo5lDSKwj-cvCiRxnTy135o9o31M_iHG7GCuQlP0JEurKPGH9q7XzNKNqo7afKT2UQaU9MKoV15I2LatRrqqFbfpLwjliKNJR4_bDomVViEEPxO-3v3J73AlHDVrwDiCeCCkWbIkFEBGj0VyJt5k-2CicB9qR33knhkgxwDeqiX3Y3IUlrf_pAkOO4hEG9aFHP1HP_qT-gaLZu4UYelYPbyh1fSMo33qi09S_-qelNJ_vvixhdBx5Bho8uLDoCjzZCwgf9hPBTLTVALtWX9wAo5_yh5SPUnqIISZDHh-4SCiLRMvITH6I7tZ2ephZQmemIKVdf7qSBRFW5ilIT4wuSbQQjBwrXq0lySAXeL7bFX3Cv_OERnOZvIehitqxxbexsgx_vQvCPqsFl1HhxNNms-BDFQ8mtY3hKQ47LD2SQ_MmeUEnD_aW-QgzZSI8iT2joHnN7fFtuE5I_xYYIU2IGZGa-A2aSH62gTUuo6fIxEReeC48ZAWU5reS29BQHJJPDOPlqfWNqRjsc-D-67zYKbkAaRwxG1NmKsUJDQ8ewTllAMJQTpfCWm9iZDoKN0W5EwjyWd7wpvPHnS_wEZ0-oSjlHY-USujx-xNV28AGU50RxdVA-9O4Mg8bGVMI4zmIewc4ftUxQueTvhSzb29EAk-r1gW4K3Ov3eVYbPPA69rsA-Y_JliREbGDoVlJltZcWntYwm8uK0ZVZ6GQP2bclqfIoeoP5cB66Zizp4yFbLcZi3L_JjDwHq9KlEqhe2sF6BbB6a8oAD-b0vntnhT2YN26Bw.ztqmABNt52yDfKNIOluEHUN5EfmsWgrErH9We163z94'
+
+data = '{}'
+tw_update_url = 'https://pdc-public-ubiservices.ubi.com/v1/spaces/99e34ec4-be44-4a31-a0a2-64982ae01744/sandboxes/DRAFI_IP_LNCH_PDC_A/teamwar/update'
+head = {'Host': 'pdc-public-ubiservices.ubi.com', 'X-Unity-Version': '2018.4.3f1', 'Ubi-AppId': 'f64d70a5-e962-445e-998c-9f4df6fb1156', 'Accept': '*/*', 'X-Device': '525473485', 'Authorization': authkey, 'Accept-Encoding': 'gzip, deflate', 'X-Version': '442', 'Accept-Language': 'en-us', 'Content-Type': 'application/json', 'Content-Length': '2', 'User-Agent': 'southpark/711398 CFNetwork/1098.7 Darwin/19.0.0', 'Connection': 'close', 'X-Platform': '0'}
+tw_update = requests.post(url=tw_update_url,headers=head,data=data)
+tw_update = json.loads(tw_update.text)
+
+
+for p in tw_update['bracket']:
+    print('Name: ' + p['name'])
+    print('Score: ' + str(p['score']))
+    print('Runs: ' + str(p['runs']))
+    print('Average: ' + str(p['score']/p['runs']))
+    print('')
+    
+    
+    
+    
+curl -i -s -k -X $'GET' \
+    -H $'Ubi-AppId: b5f1619b-8612-4966-a083-2fac253e2090' -H $'X-Unity-Version: 2018.4.3f1' -H $'X-Version: 442' -H $'X-Platform: 1' -H $'X-Device: 501574469' -H $'Authorization: Ubi_v1 t=ew0KICAidmVyIjogIjEiLA0KICAiYWlkIjogImI1ZjE2MTliLTg2MTItNDk2Ni1hMDgzLTJmYWMyNTNlMjA5MCIsDQogICJlbnYiOiAiUHJvZCIsDQogICJzaWQiOiAiY2JiMTBlODUtNGZmYS00NTI3LWFkYjQtNWNhOGUwOTFkN2YxIiwNCiAgInR5cCI6ICJKV0UiLA0KICAiZW5jIjogIkExMjhDQkMiLA0KICAiaXYiOiAia1ZpTkhfczA3VnVoZmhJWndGaGVyUSIsDQogICJpbnQiOiAiSFMyNTYiDQp9.ZqWPpGi9Zuw9hnQ3fHQQFdFi4IFflWL3CyG1V6HQfIhupXvZpla6s5q-x7G5KC1TbEMJeV661W25r-YUwSZn7TXBe2oSFtvk9BCTDtMy77t4nQBooe9u2sLtyech2bi8wzgppaR37pzvMqwqpnSDxfFiHXu4ug7mKWLJ5xP23OFNaDEFGMm37HHxRL9ddVP3_-5f8I43xRuY2ILE0GIROhecdALkVHP_WI5tDPYcaU7rbWwANmRIlJXp2ZUBte7JNpFkpZLpCZyUURMuUHrmoMaDr0K98DcjbraLO_iefWF-jSWsX4Hfruhqjz2C_WMzqJVFwU0TX9OomUZDgX8fKmyHAz3LTMQQNBEC7F5aEeE8wb05df1XxDqlkn8YcxyzjJBIm-Y7baApZBnSf88HvbeEYr8Az1FymU78WsSQbSlngO-cZRQ4y0a08lXfowfnKKilPaSTAbr_0XNdNqtJaajlgdpkw6J6r_N2V1inSvUY8eGv3YSgg_RV0paqTkBduvzObL7EQaqbDZmeVK83epBoCtA_SqKPvuzsZBvF7mnTavPexKnM8QjVpQLQCZDT1R_x06NkJtoy3k3eEhudQmfHb6dz3LRsdF2dBBG2nE3TcAozzqUDOfk4X_7tXjIzGySbviU87eZ6I1o5rGIBpFhKee-O7TnhFziRG7oKEYMAqbdEmFm1-f2g2bO6sOq4e7EG879JrPQZLw_iDjJxpxjQnbbFlqmKZtOZgNq8ASgLKJdWEHqRPrYaEVYxEA-vIGLFYoKlFiryXRXO6mKP4OuJ3TUnY7dT1aYlbeNbLGFJUHZgO5U2Y_DAi-MEjpjB7MT6YlkOkDmcgovUr81BFL568TmGV_GQT3rHvZIe68cuaLFMLh9CL-mkB3ZOAqDx8XP8UuvMk_ZTPGNEjY6DTodlajmOyEqeHdXdeGooJuU.7lFle-4mLijyM6hL38MVCH-pnoAUuuq7OZH5JixU95g' -H $'User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1.1; A5010 Build/LMY48Z)' -H $'Host: pdc-public-ubiservices.ubi.com' -H $'Connection: close' -H $'Accept-Encoding: gzip, deflate' \
+    $'https://pdc-public-ubiservices.ubi.com/v1/spaces/99e34ec4-be44-4a31-a0a2-64982ae01744/sandboxes/DRAFI_IP_LNCH_PDC_A/teamwar/votes'
+
+    {"cards": [[{"co_leader_elder_votes": 15, "votes": 16, "last_voted": true, "id": 30}, {"co_leader_elder_votes": 23, "leader_vote": true, "votes": 24, "id": 1680}], [{"co_leader_elder_votes": 8, "votes": 8, "id": 86}, {"co_leader_elder_votes": 30, "leader_vote": true, "votes": 32, "last_voted": true, "id": 49}], [{"co_leader_elder_votes": 29, "leader_vote": true, "votes": 30, "id": 44}, {"co_leader_elder_votes": 9, "votes": 10, "last_voted": true, "id": 137}], [{"co_leader_elder_votes": 1, "votes": 1, "id": 1824}, {"co_leader_elder_votes": 37, "leader_vote": true, "votes": 39, "last_voted": true, "id": 1407}], [{"co_leader_elder_votes": 20, "leader_vote": true, "votes": 21, "id": 132}, {"co_leader_elder_votes": 18, "votes": 19, "last_voted": true, "id": 133}], [{"co_leader_elder_votes": 16, "votes": 17, "last_voted": true, "id": 1657}, {"co_leader_elder_votes": 22, "leader_vote": true, "votes": 23, "id": 1307}], [{"co_leader_elder_votes": 33, "leader_vote": true, "votes": 35, "last_voted": true, "id": 1804}, {"co_leader_elder_votes": 5, "votes": 5, "id": 1805}], [{"co_leader_elder_votes": 36, "leader_vote": true, "votes": 38, "last_voted": true, "id": 1886}, {"co_leader_elder_votes": 2, "votes": 2, "id": 1661}], [{"co_leader_elder_votes": 22, "leader_vote": true, "votes": 23, "last_voted": true, "id": 1277}, {"co_leader_elder_votes": 16, "votes": 17, "id": 1272}], [{"co_leader_elder_votes": 1, "votes": 1, "id": 2217}, {"co_leader_elder_votes": 37, "leader_vote": true, "votes": 39, "last_voted": true, "id": 1813}], [{"co_leader_elder_votes": 2, "votes": 2, "id": 1872}, {"co_leader_elder_votes": 35, "leader_vote": true, "votes": 37, "last_voted": true, "id": 138}], [{"co_leader_elder_votes": 32, "leader_vote": true, "votes": 33, "id": 193}, {"co_leader_elder_votes": 5, "votes": 6, "last_voted": true, "id": 51}]]}
+
+
+
+    ### UGRADE cards
+    curl -i -s -k -X $'POST' \
+    -H $'Expect: 100-continue' -H $'Ubi-AppId: b5f1619b-8612-4966-a083-2fac253e2090' -H $'X-Unity-Version: 2018.4.3f1' -H $'X-Version: 442' -H $'Content-Type: application/json' -H $'X-Platform: 1' -H $'X-Device: 501574469' -H $'Authorization: Ubi_v1 t=ew0KICAidmVyIjogIjEiLA0KICAiYWlkIjogImI1ZjE2MTliLTg2MTItNDk2Ni1hMDgzLTJmYWMyNTNlMjA5MCIsDQogICJlbnYiOiAiUHJvZCIsDQogICJzaWQiOiAiY2JiMTBlODUtNGZmYS00NTI3LWFkYjQtNWNhOGUwOTFkN2YxIiwNCiAgInR5cCI6ICJKV0UiLA0KICAiZW5jIjogIkExMjhDQkMiLA0KICAiaXYiOiAia1ZpTkhfczA3VnVoZmhJWndGaGVyUSIsDQogICJpbnQiOiAiSFMyNTYiDQp9.ZqWPpGi9Zuw9hnQ3fHQQFdFi4IFflWL3CyG1V6HQfIhupXvZpla6s5q-x7G5KC1TbEMJeV661W25r-YUwSZn7TXBe2oSFtvk9BCTDtMy77t4nQBooe9u2sLtyech2bi8wzgppaR37pzvMqwqpnSDxfFiHXu4ug7mKWLJ5xP23OFNaDEFGMm37HHxRL9ddVP3_-5f8I43xRuY2ILE0GIROhecdALkVHP_WI5tDPYcaU7rbWwANmRIlJXp2ZUBte7JNpFkpZLpCZyUURMuUHrmoMaDr0K98DcjbraLO_iefWF-jSWsX4Hfruhqjz2C_WMzqJVFwU0TX9OomUZDgX8fKmyHAz3LTMQQNBEC7F5aEeE8wb05df1XxDqlkn8YcxyzjJBIm-Y7baApZBnSf88HvbeEYr8Az1FymU78WsSQbSlngO-cZRQ4y0a08lXfowfnKKilPaSTAbr_0XNdNqtJaajlgdpkw6J6r_N2V1inSvUY8eGv3YSgg_RV0paqTkBduvzObL7EQaqbDZmeVK83epBoCtA_SqKPvuzsZBvF7mnTavPexKnM8QjVpQLQCZDT1R_x06NkJtoy3k3eEhudQmfHb6dz3LRsdF2dBBG2nE3TcAozzqUDOfk4X_7tXjIzGySbviU87eZ6I1o5rGIBpFhKee-O7TnhFziRG7oKEYMAqbdEmFm1-f2g2bO6sOq4e7EG879JrPQZLw_iDjJxpxjQnbbFlqmKZtOZgNq8ASgLKJdWEHqRPrYaEVYxEA-vIGLFYoKlFiryXRXO6mKP4OuJ3TUnY7dT1aYlbeNbLGFJUHZgO5U2Y_DAi-MEjpjB7MT6YlkOkDmcgovUr81BFL568TmGV_GQT3rHvZIe68cuaLFMLh9CL-mkB3ZOAqDx8XP8UuvMk_ZTPGNEjY6DTodlajmOyEqeHdXdeGooJuU.7lFle-4mLijyM6hL38MVCH-pnoAUuuq7OZH5JixU95g' -H $'Content-Length: 9' -H $'User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1.1; A5010 Build/LMY48Z)' -H $'Host: pdc-public-ubiservices.ubi.com' -H $'Connection: close' -H $'Accept-Encoding: gzip, deflate' \
+    --data-binary $'{\"row\":0}' \
+    $'https://pdc-public-ubiservices.ubi.com/v1/spaces/99e34ec4-be44-4a31-a0a2-64982ae01744/sandboxes/DRAFI_IP_LNCH_PDC_A/techtree/cards/203/upgrade'
+
+
+    # UPGRADE FIREBALL
+    curl -i -s -k -X $'POST' \
+    -H $'Expect: 100-continue' -H $'Ubi-AppId: b5f1619b-8612-4966-a083-2fac253e2090' -H $'X-Unity-Version: 2018.4.3f1' -H $'X-Version: 442' -H $'Content-Type: application/json' -H $'X-Platform: 1' -H $'X-Device: 501574469' -H $'Authorization: Ubi_v1 t=ew0KICAidmVyIjogIjEiLA0KICAiYWlkIjogImI1ZjE2MTliLTg2MTItNDk2Ni1hMDgzLTJmYWMyNTNlMjA5MCIsDQogICJlbnYiOiAiUHJvZCIsDQogICJzaWQiOiAiY2JiMTBlODUtNGZmYS00NTI3LWFkYjQtNWNhOGUwOTFkN2YxIiwNCiAgInR5cCI6ICJKV0UiLA0KICAiZW5jIjogIkExMjhDQkMiLA0KICAiaXYiOiAia1ZpTkhfczA3VnVoZmhJWndGaGVyUSIsDQogICJpbnQiOiAiSFMyNTYiDQp9.ZqWPpGi9Zuw9hnQ3fHQQFdFi4IFflWL3CyG1V6HQfIhupXvZpla6s5q-x7G5KC1TbEMJeV661W25r-YUwSZn7TXBe2oSFtvk9BCTDtMy77t4nQBooe9u2sLtyech2bi8wzgppaR37pzvMqwqpnSDxfFiHXu4ug7mKWLJ5xP23OFNaDEFGMm37HHxRL9ddVP3_-5f8I43xRuY2ILE0GIROhecdALkVHP_WI5tDPYcaU7rbWwANmRIlJXp2ZUBte7JNpFkpZLpCZyUURMuUHrmoMaDr0K98DcjbraLO_iefWF-jSWsX4Hfruhqjz2C_WMzqJVFwU0TX9OomUZDgX8fKmyHAz3LTMQQNBEC7F5aEeE8wb05df1XxDqlkn8YcxyzjJBIm-Y7baApZBnSf88HvbeEYr8Az1FymU78WsSQbSlngO-cZRQ4y0a08lXfowfnKKilPaSTAbr_0XNdNqtJaajlgdpkw6J6r_N2V1inSvUY8eGv3YSgg_RV0paqTkBduvzObL7EQaqbDZmeVK83epBoCtA_SqKPvuzsZBvF7mnTavPexKnM8QjVpQLQCZDT1R_x06NkJtoy3k3eEhudQmfHb6dz3LRsdF2dBBG2nE3TcAozzqUDOfk4X_7tXjIzGySbviU87eZ6I1o5rGIBpFhKee-O7TnhFziRG7oKEYMAqbdEmFm1-f2g2bO6sOq4e7EG879JrPQZLw_iDjJxpxjQnbbFlqmKZtOZgNq8ASgLKJdWEHqRPrYaEVYxEA-vIGLFYoKlFiryXRXO6mKP4OuJ3TUnY7dT1aYlbeNbLGFJUHZgO5U2Y_DAi-MEjpjB7MT6YlkOkDmcgovUr81BFL568TmGV_GQT3rHvZIe68cuaLFMLh9CL-mkB3ZOAqDx8XP8UuvMk_ZTPGNEjY6DTodlajmOyEqeHdXdeGooJuU.7lFle-4mLijyM6hL38MVCH-pnoAUuuq7OZH5JixU95g' -H $'Content-Length: 2' -H $'User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1.1; A5010 Build/LMY48Z)' -H $'Host: pdc-public-ubiservices.ubi.com' -H $'Connection: close' -H $'Accept-Encoding: gzip, deflate' \
+    --data-binary $'{}' \
+    $'https://pdc-public-ubiservices.ubi.com/v1/spaces/99e34ec4-be44-4a31-a0a2-64982ae01744/sandboxes/DRAFI_IP_LNCH_PDC_A/techtree/cards/24/evolve'
+    
+    
+    
+    
+    
+    
+    import json
+import requests
+
+authkey = 'Ubi_v1 t=ew0KICAidmVyIjogIjEiLA0KICAiYWlkIjogImI1ZjE2MTliLTg2MTItNDk2Ni1hMDgzLTJmYWMyNTNlMjA5MCIsDQogICJlbnYiOiAiUHJvZCIsDQogICJzaWQiOiAiMTQ0NTEyY2EtZTRhOS00YjE0LWFkMmItYjg1YjA1YTdlOGZkIiwNCiAgInR5cCI6ICJKV0UiLA0KICAiZW5jIjogIkExMjhDQkMiLA0KICAiaXYiOiAibWpzODBsNWJqT1hjS2xLRS1zMGhOQSIsDQogICJpbnQiOiAiSFMyNTYiDQp9.fmNpH01BkliuQcznKi9hy5H6Yfa7oQiqY7lg1RiXRn3rXJ9QYgA7UzXD0lNueRT91gmgXrgS4qTU-nuao5Hp4qAw1hx_sQAyWNeUqeJQq1HH4bFGRTUEvdcgW6Kse7YV-WBZnJbqlpYqzS4RKqJeeHUd-hKfmU8M48nOo5pWLdtoZlO10aer9QczbDRF5vuxUMi0arQYUZ2KslS6SYC7BgKjpIJePpx3CV8gZTsn9WNsRO5GwmoeRTqdvw3oPRNSlo54FQ5j2ccPh6qJ1oB165hqp-14fsCvgRh5s_H28w6v7qWCUEAlUaveqe7IVAL-pzfHeMU0_6n3xBhzUmooTZ793xoaSyRFVd1t_knBkb__S2aizkY7pBzsFrRk78y9Osypb2Fn2t8Qwe9UG3Y_F3ae03WSrNXlmm9yEjwRj6-NmactlGnRJ4CUPGNU3BsMStEwM6s4qqF-6dHn03kBht1eDVTDNCLfG_8zmcPqtBm-xXaViTz3oRtcQqxGgzdAIu5zomhScSnTHHIYhQr7hO8yVmTmTH9VZOIMpa6ERVS-idl2lJ1Yah3Debc6sxQQQv3khHF15Jln_l0kGWOEaX6fYSb1Q6Cd0GRD8QdDxGKsYlFrdLrRZPSe-sbGcyzLDsJ2hBX7wJ3NG2TIHB2FfEafPLv_lNlinqHTOxcFRPX0hP0g7GTVjWsOYzPnUE3QG_4rPk1RCkHFfbtZmbVIsFPiiyUjYex4YZ0X5rvZnaM22LpLOmfC-i4BqrWrKv0cinEQ_LIy9t-MxoBtFESVsPQQTE1guDhfDCfLC9TnAUwVciWjP-rYJwpME6KXz4MBW8YozTbIjmOE1pKp8SdyImr3WE4Ptz39IbmJyaE9bAW3Y9Nij48AslmLJZ-NrUH9bj6mouD-vM4RC4VriCW425JEbXH4wdu7Fxjscyb31Dk.OrgUBTJj8Mu8BF1ryo1YYmY7ZOzw3qpsvtQuWdgkzag'
+data = '{}'
+tw_update_url = 'https://pdc-public-ubiservices.ubi.com/v1/spaces/99e34ec4-be44-4a31-a0a2-64982ae01744/sandboxes/DRAFI_IP_LNCH_PDC_A/teamwar/update'
+head={'Expect': '100-continue','Ubi-AppId': 'b5f1619b-8612-4966-a083-2fac253e2090','X-Unity-Version': '2018.4.3f1','X-Version': '442','Content-Type': 'application/json','X-Platform': '1','X-Device': '501574469','Authorization': authkey,'Content-Length': '2','User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 5.1.1; A5010 Build/LMY48Z)','Host': 'pdc-public-ubiservices.ubi.com','Connection': 'close','Accept-Encoding': 'gzip, deflate'}
+tw_update = requests.post(url=tw_update_url,headers=head,data=data)
+tw_update = json.loads(tw_update.text)
+
+
+for p in tw_update['bracket']:
+    print('Name: ' + p['name'])
+    print('Score: ' + str(p['score']))
+    print('Runs: ' + str(p['runs']))
+    print('Average: ' + str(p['score']/p['runs']))
+    print('')
+    
+    
+    
+    
+import json
+import requests
+# TW UPDATE
+
+authkey = 'Ubi_v1 t=ew0KICAidmVyIjogIjEiLA0KICAiYWlkIjogImY2NGQ3MGE1LWU5NjItNDQ1ZS05OThjLTlmNGRmNmZiMTE1NiIsDQogICJlbnYiOiAiUHJvZCIsDQogICJzaWQiOiAiN2MyYWYzMjUtMzBhOS00YjBjLTg4MDUtMWRiODViODY0MDcyIiwNCiAgInR5cCI6ICJKV0UiLA0KICAiZW5jIjogIkExMjhDQkMiLA0KICAiaXYiOiAiNzhDckFkZ3hzRHBYZWQxWWZmdWpvZyIsDQogICJpbnQiOiAiSFMyNTYiDQp9.RTMf1OVSxgy9-YFg0ZlAobboIGt2kGW73TgDGWgAkqpIMEr8xl_EvtjEFuhwXXN4zgzW_VXjrMw_q6xluSHEKjHDAGF9n4AVE6rak_Y6ub4aN4fD8t9mQ7yrFnfdIH86LQx9SOKgjrNpnMxKUONjj54WvnAu-UcXtXrHx6GlLrsIdeXcT7XtfUD1pTa53Lbio_g1NXbCdZcNHZ2BKKxfvGnjj1eivNEowZacTXIUafG5-OZfu0vY1aIYl-melUcx4xc9_GxNhNj67P3QP6_Y4iuA3rw8ccD_yzie5W0v0sFQrRdCwaM0wY0_PhwdtRG11jMQSp-MkJ9QHwQBZrz9N_TBvPu_RwlEDWz5Fwy7yI2Ku3hoS5upcl_GKIbSyoTaxKkZDVKRujLArCWmocy1FwH98KkkoCWw1vAUk9V2gce1V662u3EiaSwZtKlFmshP0vNnlsCAHfSzRkr4K7oX18dt3cnQ5liDBiRDApRRgFCfq5aSTa_PL-sTkbuGsIueN2OTFPLmX_5iMgLI16hJRcW69CPJdPa9UNO2PP0Oof16xv0koiI3G1zXI-BlfNH9cXVmAbV4uDDDvQOu9Pn9gg2idXbcuBYUmqzbZnZTWkaERIdmZoWvkJ8P66yRyN4DdnGx59YjMzYRNKaDC00uTY8h4mOYBBHRGETFHEee6qRZb-5d0uHPNiuSG7KJoSdi0nzwpshqiP6ZzYhtq2lot5HTPs80ZAjNHOtms0fkQTWQkNM3RPhbbM3d96TxjYKOaD6G25XDX20sUR8XweTmQZ580BFwEtxYxn3JNp9_EHI6ZoDdu2Gad7B0UL4s8jL4a6tn6sa93KO5ciRc-CO5Pg.v9nhe4jnRvf-gDZDp9ZlqCXaYrv2xHDfT5HrBv1b_c8'
+data = '{}'
+url = 'https://pdc-public-ubiservices.ubi.com/v1/spaces/99e34ec4-be44-4a31-a0a2-64982ae01744/sandboxes/DRAFI_IP_LNCH_PDC_A/teamwar/update'
+head = {'Host': 'pdc-public-ubiservices.ubi.com', 'X-Unity-Version': '2018.4.3f1', 'Ubi-AppId': 'f64d70a5-e962-445e-998c-9f4df6fb1156', 'Accept': '*/*', 'X-Device': '525473485', 'Authorization': authkey, 'Accept-Encoding': 'gzip, deflate', 'X-Version': '442', 'Accept-Language': 'en-us', 'Content-Type': 'application/json', 'Content-Length': '2', 'User-Agent': 'southpark/711398 CFNetwork/1098.7 Darwin/19.0.0', 'Connection': 'close', 'X-Platform': '0'}
+tw_update = requests.post(url=url,headers=head,data=data)
+
+
+
+
+
+
+
+
+
+
+
+
+
+authkey = 'Ubi_v1 t=ew0KICAidmVyIjogIjEiLA0KICAiYWlkIjogImI1ZjE2MTliLTg2MTItNDk2Ni1hMDgzLTJmYWMyNTNlMjA5MCIsDQogICJlbnYiOiAiUHJvZCIsDQogICJzaWQiOiAiZGFiNDI3MzMtODk1OC00ZDI0LTljNGQtNTZhM2IxNWFkYmRhIiwNCiAgInR5cCI6ICJKV0UiLA0KICAiZW5jIjogIkExMjhDQkMiLA0KICAiaXYiOiAiUGFGR0hTQVF5RGMtdVR1aEFVWGtfUSIsDQogICJpbnQiOiAiSFMyNTYiDQp9.TtfMK4e3gyL6ra5O2-PX2TKkowTe-KPRnxPeoL4tG8_S-m5OPumC7imk7S9IQm7hQI9T7mdAnL89A5uTisaqF9ss4bwR9j-wHlcW3pRRjWJWSLA4rWNU9Hvaalllmcotvdx0YmM1X-kTdBLHItienvJT2ao8MVgdIJjB3HrBLHJoxIW2UgT6jtaMDg7M0kugV4POuPLP39YOY0Dirzpq4fSGqzpkSSXFe6Jhvpc1mG7tcXU9v-XaJ618c-DXux4mpkBVoQtMdIRP_A21tdMU989loLVj4K701mSk-mgfsSj9CIZ4aXtRDdDNjLV0jtN5JTog0-2FmQVO4JrPYaFge3tgngvC3GxR9jEboW7NSYIYLaXq0X8LFDEnQZzrAvq6oflHGQeOGkzL2vhyzTU6o7fz852shR689vOwXbzXhVhvL-uaJ4I5uzK14deCnZqbWuiaRWreKrON-EobTAtmtnjBlqEoy3yedUxfVZoinxZehfZ2tEk8u3CKHqxck0kri2B2UixoKcGY3H7r-LJ5wZ3IlZHsBA9hSwKi7Q7rjR7jZk747g-3ZbfhWmhRWCL4oGQihpJLZh_zhMf5AGVWTOLMKBG1HlQFK7mHG24NEmhpRYqE_n4qHwcC7IhPkuTMoyQvG4TWbHAl_cB2m6UCn1I2z0XYaOwQ4-UPg_-raPoyg_0MBWdcqQv2czfpUtwdzC1sHVCpc81Mlubw62YYAl2YNewd3lptAi--5ypNMKplAItMQuYZFCpOUPjGwnUKXXzca8w19AL3FpV5y9wmNx1kzp89Yf1NhCIiQKP4nqmsM0icwQvbsXfqynpnuZ0SwXzeLvNbmubekR-bS6M90A.27_HSACULcgYEY4XoqKf4F8SiIAlAXC-N9IL8TAniQU'
+data = '{}'
+
+# Free card pack (android)
+free_pack_url = 'https://pdc-public-ubiservices.ubi.com/v1/spaces/99e34ec4-be44-4a31-a0a2-64982ae01744/sandboxes/DRAFI_IP_LNCH_PDC_A/cardpack/cardpacks/free'
+head = {'Expect': '100-continue', 'Ubi-AppId': 'b5f1619b-8612-4966-a083-2fac253e2090','X-Unity-Version': '2018.4.3f1','X-Version': '442','Content-Type': 'application/json','X-Platform': '1','X-Device': '501574469','Authorization': authkey,'Content-Length': '2','User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 5.1.1; A5010 Build/LMY48Z)','Host': 'pdc-public-ubiservices.ubi.com','Connection': 'close','Accept-Encoding': 'gzip, deflate'}    
+free_pack_url = requests.post(url=free_pack_url,headers=head,data=data)
+
+# Card Request (android)
+head = {'Expect: 100-continue' ,'Ubi-AppId': 'b5f1619b-8612-4966-a083-2fac253e2090' ,'X-Unity-Version': '2018.4.3f1' ,'X-Version': '442' ,'Content-Type': 'application/json' ,'X-Platform': '1' ,'X-Device': '501574469' ,'Authorization': authkey ,'Content-Length': '2' ,'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 5.1.1; A5010 Build/LMY48Z)' ,'Host': 'pdc-public-ubiservices.ubi.com' ,'Connection': 'close' ,'Accept-Encoding': 'gzip, deflate'}
+card_request_url = 'https://pdc-public-ubiservices.ubi.com/v1/spaces/99e34ec4-be44-4a31-a0a2-64982ae01744/sandboxes/DRAFI_IP_LNCH_PDC_A/team/requests'
+
+
+curl -i -s -k -X $'POST' \
+    -H $'Expect: 100-continue' -H $'Ubi-AppId: b5f1619b-8612-4966-a083-2fac253e2090' -H $'X-Unity-Version: 2018.4.3f1' -H $'X-Version: 442' -H $'Content-Type: application/json' -H $'X-Platform: 1' -H $'X-Device: 501574469' -H $'Authorization: Ubi_v1 t=ew0KICAidmVyIjogIjEiLA0KICAiYWlkIjogImI1ZjE2MTliLTg2MTItNDk2Ni1hMDgzLTJmYWMyNTNlMjA5MCIsDQogICJlbnYiOiAiUHJvZCIsDQogICJzaWQiOiAiYTUzOTBjY2UtMWI1OC00NDQ0LWJhYTMtYTYwM2FhNjdhOGM1IiwNCiAgInR5cCI6ICJKV0UiLA0KICAiZW5jIjogIkExMjhDQkMiLA0KICAiaXYiOiAiT1dQNEwxVkNRbzJIOWRGUXBfM28yUSIsDQogICJpbnQiOiAiSFMyNTYiDQp9.8dRJ6mgnA2u5A4Lso_Bri9f69h4AdpKbkTsq1JjKcV_03HzHkDGFuGD2U6ArW6UeGudGnJilv-ey17yZKTPSlNcRT31fUOLdoNGxABFrHOqaYj6y8zRT3WsM28ROBCkV4gf0OLOwAtezCXpCQly2ygtTfp-UJ41bSgngTbpuvmegA82e2_-Scw4eFl28TCHj0Qn9DZmt-5oAWxVZJlI55b1Q_JRRUo8dQn6UQrj6yJRXPRieIXEMkFF8gF6cgXUrrSDUfM_oNgdkHjsXmFl2WwE0IotGfTee0a3OPgaj-TGzg5L6r-p4oER3fO3Cbb0kHACRZ3oHoAoCZxTEChhKNJfrd-9z-L2hikaXrd4G6SvheMc21sAVDSnDPBa2nCsP-nFQhNr5saHTYjk_LjyC5J9khR-sLsZj-1mY-ZzwTL4DI0wisXUvbHVLvzkMSrafsLhipWJLgZkNcZC-YgGojXoKUSUEp1NQPiGSNBlwfVtVtOsWxNG-FcaS7Q2lvtoHRK1Cpg3EBE7fKEteqi1MeMAqs5xakvrkMcajjCQLBKSatv8edx32D318IJX7tU2PXX4_zKdl064alwPEr_CtxMynOJplgbccFefV8g97ZnR_WGzEopVhr5Px9QgdU1Zz3Og8O8BMFLDNPw20k_fE6asR4ccnr5O_OFnBci-c-DXkEl4D-hu5ZA5zuYbJbpoq4iY7U_Ei-Jp1FaykQVNdIzrxEj0YpxghF1YZMbi-aifoWCekHbWdIYxaOuhh1GO8OO24ShjK50IEz8r0_vS9ibUp1v2iKrNxbOi9fjFu7RIVRvsRYkSGii1vgKkj6DWaPyJ7my7V6ivLBTt7iSZA0g.KA1dKf9ImOEeCkKUeRuUm_6uoRHzv6iv6vPLYvjuQ1w' -H $'Content-Length: 2' -H $'User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1.1; A5010 Build/LMY48Z)' -H $'Host: pdc-public-ubiservices.ubi.com' -H $'Connection: close' -H $'Accept-Encoding: gzip, deflate' \
+    --data-binary $'{}' \
+    $'https://pdc-public-ubiservices.ubi.com/v1/spaces/99e34ec4-be44-4a31-a0a2-64982ae01744/sandboxes/DRAFI_IP_LNCH_PDC_A/teamwar/update'
+
+
+
+curl -i -s -k -X $'POST' \
+    -H $'Expect: 100-continue' -H $'Ubi-AppId: b5f1619b-8612-4966-a083-2fac253e2090' -H $'X-Unity-Version: 2018.4.3f1' -H $'X-Version: 442' -H $'Content-Type: application/json' -H $'X-Platform: 1' -H $'X-Device: 501574469' -H $'Authorization:  -H $'Content-Length: 16' -H $'User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1.1; A5010 Build/LMY48Z)' -H $'Host: pdc-public-ubiservices.ubi.com' -H $'Connection: close' -H $'Accept-Encoding: gzip, deflate' \
+    --data-binary $'{\"card_id\":1307}' \
+    $''
+
+
+
+
+import json
+import requests
+
+
+authkey = 'Ubi_v1 t=ew0KICAidmVyIjogIjEiLA0KICAiYWlkIjogImI1ZjE2MTliLTg2MTItNDk2Ni1hMDgzLTJmYWMyNTNlMjA5MCIsDQogICJlbnYiOiAiUHJvZCIsDQogICJzaWQiOiAiNjk1YzkyMTMtOGY4Zi00NjQ2LWEyMzgtODdmZWYxZjg3YWEzIiwNCiAgInR5cCI6ICJKV0UiLA0KICAiZW5jIjogIkExMjhDQkMiLA0KICAiaXYiOiAiMEd0clNINzZDeGRna0tRNVR3NGF0ZyIsDQogICJpbnQiOiAiSFMyNTYiDQp9.gHXafLVDQe5XeK0jCMingr7sdIiyW1ebEvelqkkyFILCeDd08blDuVjJqCBTvydFEcVp_2X9d2088QFPrUj7aY0cUbE9dpFVq0wIG8Kd-EtniEIH7VXSgQnuzyxPwecr4kC1fEfo4cO3GceXeXfyeBRUQO8EO6nlIY51TqpjQqTyZgf4PzbKWn4XFLygSKguFAA7w_jfaRXizJLTbelWN43dptMol0TatULNeq2AU6lxo6M_nUfWuB1IKOjaUIXl9NYM3_XyOtV8TYxcZ4fbqtuoVB23O30Zk11LyI-RNSGZBx9qWD8MVLrUW2BCzNj_gtZYP7DRssGI1hDjxcWIk3LelWSsYKtYzSKzbY35LonBx_O4Pk4PrvKhdt43snxriq2pjCIrSBb5maKKzOU_2tVCHywqS_fbtCGde57PVdJM1MGPBl26oXsaRQB5oyXvyfW5bUiyCuNumd_5bukfhgivd9XP904tF4FssviFWKhtILWtF3DOhyVDwH90CKsCXG8egVTBLjKkEItwjM4go2y4ous4yruH-qB0O5aRp2D1Jqn4pxFVPiP64Qpg7P2f2f-mUBXQF2rScurJuTigEhmfiG7STolSbpLFhvIC4E-7ulaZN2XhapMHqFqX-YuOmuBAZZG2ByAH06UUFujTxC5Ud9VNPDkE3IuSJD3QOOLWWeWiziLQVlp40zzXEdo2nHsMFIseAlcVGjql9ZrBpyRmdo5_qxMuS34j6e0yuyMl4ihoBs3C4kT2_AKPyHYgdn0AdrLEMCGRzytPIVXzNHD4L1Ya8eQC7-vrpsYwzcE6WJPMMo7CDCC16uP6TWovxbZX3kDC9cPLi89lqg5d6OqxWY_UKww6slVWJ4ezacmu8keWcYH1tE8yU4K2fR7Io6v-7KQruWQbCUdCTaqCVaNwml_6U52-jl8Ejcugr0A.trtU35Dvw0tiM9F2knZxJnU6F_EnE2jqkslmtgnPKdE'
+
+
+# TW HISTORY
+tw_history_url = 'https://pdc-public-ubiservices.ubi.com/v1/spaces/99e34ec4-be44-4a31-a0a2-64982ae01744/sandboxes/DRAFI_IP_LNCH_PDC_A/teamwar/history'
+head = {'Host': 'pdc-public-ubiservices.ubi.com','Ubi-AppId': 'f64d70a5-e962-445e-998c-9f4df6fb1156','Accept': '*/*','X-Device': '525473485','Authorization': authkey,'X-Version': '442','Accept-Language': 'en-us','Accept-Encoding': 'gzip, deflate','X-Unity-Version': '2018.4.3f1','User-Agent': 'southpark/711398 CFNetwork/1098.7 Darwin/19.0.0','Connection': 'close','X-Platform': '0'}
+tw_history = requests.get(url=tw_history_url,headers=head)
+tw_history = json.loads(tw_history.text)
+
+
+for weeks in tw_history['history'][4]['members']:
+    profileid = weeks['profile_id']
+    profileid_lookup_url = 'https://public-ubiservices.ubi.com/v1/profiles?profileId='+profileid
+    head = {'Host': 'public-ubiservices.ubi.com','Ubi-AppId': 'f64d70a5-e962-445e-998c-9f4df6fb1156','Accept': '*/*','X-Device': '525473485','Authorization': authkey,'X-Version': '442','Accept-Language': 'en-us','Accept-Encoding': 'gzip, deflate','X-Unity-Version': '2018.4.3f1','User-Agent': 'southpark/711398 CFNetwork/1098.7 Darwin/19.0.0','Connection': 'close','X-Platform': '0'}
+    name_lookup = requests.get(url=profileid_lookup_url,headers=head)
+    profilelist = json.loads(name_lookup.text)
+    for p in profilelist['profiles']:
+        print('Player: ' + p['nameOnPlatform'])
+    print('Score: ' + str(weeks['score']))
